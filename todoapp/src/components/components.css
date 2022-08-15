@@ -1,0 +1,108 @@
+.navbar {
+    height: 8vw;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(128, 0, 115);
+    padding: 0 15px;
+    background: pink;
+    justify-content: space-between;
+}
+
+
+.TaskBlock{
+    display: flex;
+    padding: 5%;
+    border: 1px solid rgb(128, 0, 115);
+    background: rgb(255, 245, 139);
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.task {
+    text-align: center;
+    display: flex;
+    margin: 15px;
+    padding: 15px;
+    width: 60vw;
+    background: rgb(255, 249, 189);
+    border: 1px solid rgb(128, 0, 115);
+    margin-top: 0vw;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.checkbox{
+    height: 20px;
+    width: 20px;
+
+}
+
+.task-black{
+    text-align: center;
+    display: flex;
+    margin: 15px;
+    padding: 15px;
+    width: 60vw;
+    background: rgb(113, 112, 100);
+    border: 1px solid rgb(128, 0, 115);
+    margin-top: 0vw;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+}
+.Form{
+    display: flex;
+    padding: 1%;
+    margin: 2%;
+    border: 1px solid rgb(128, 0, 115);
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+.date{
+    display: flex;
+    width: 40%;
+    flex-direction: row;
+    align-items: center;
+}
+
+button{
+        padding: 5px 15px;
+        color: teal;
+        font-size: 14px;
+        background: lightgreen;
+        border: 1px solid teal;
+        cursor: pointer;
+    
+}
+.Home{
+    display: flex;
+    padding: 5%;
+    border: 1px solid rgb(128, 0, 115);
+    background: rgb(255, 245, 139);
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.Forminput{
+    width: 50%;
+    padding: 5px 15px;
+    margin: 5px 0;
+    border: 1px solid teal;
+}
+select{
+    width: 35%;
+    padding: 1px 15px;
+    margin: 5px 0;
+    border: 1px solid teal;
+}
+.SearchInput{
+    width: 50%;
+    padding: 1.6px 15px;
+    margin: 5px 0;
+    border: 1px solid teal;
+
+}
